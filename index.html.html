@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>oskaraspa.com | Portfolio</title>
+	
+		<link rel="shortcut icon" type="image/png" href="./ICO_Favicon.png"/>
+	
+		<style>
+		
+			@font-face {
+				font-family: Oskaras;
+				src: url( './Oskaras.woff' );
+			}
+		
+			* {
+				color: rgba( 255, 255, 255, 0.8 );
+				font-size: 20px;
+				
+				font-family: Oskaras;
+
+				  -webkit-touch-callout: none;
+					-webkit-user-select: none;
+					 -khtml-user-select: none;
+					   -moz-user-select: none;
+						-ms-user-select: none;
+							user-select: none;
+			}
+
+			body {
+				position: absolute;
+				
+				left: 0;
+				top: 0;
+				
+				padding: 0;
+				margin: 0;
+				
+				width: 100%;
+				height: 100%;
+				
+				background-color: rgb( 0, 0, 3 );
+			}
+			
+			.Oskaras {
+				width: 1080px;
+				height: 100%;
+				margin: 0 auto;
+			}
+			
+			.Oskaras header {
+				width: 100%;
+				height: 65px;
+				
+				position: relative;
+				top: 60px;
+			}
+			
+			header div.LEFT {
+				float: left;
+				
+				width: 50%;
+				height: 100%;
+			}
+			
+			header div.LEFT p {
+				letter-spacing: 15px;
+				font-size: 17px;
+				margin-left: 15px;
+			}
+			
+			header div.LEFT p:hover {
+				font-weight: bolder;
+				
+				cursor: pointer;
+			}
+
+			header div.RIGHT {
+				float: right;
+				
+				width: 50%;
+				height: 100%;
+			}
+			
+			header div.RIGHT a {
+				display: inline-block;
+				text-decoration: none;
+				width: 30%;
+				height: 100%;
+				position: relative;
+				line-height: 70px;
+				
+				float: right;
+				
+				letter-spacing: 10px;
+				font-size: 10px;
+				text-align: right;
+			}
+			
+			.Oskaras .BODY {
+				width: 100%;
+				min-height: 200px;
+				
+				position: relative;
+				top: 110px;
+				display: table;
+			}
+			
+			.BODY .FIRST {
+				display: inline-block;
+				width: 240px;
+				height: 240px;
+				
+				float: left;
+				
+				margin: 15px 15px;
+				position: relative;
+			}
+			
+			.BODY .FIRST img {
+				max-width: 100%;
+				max-height: 100%;
+				
+				position: absolute;
+				top: 0;
+				left: 0;
+				
+				cursor: pointer;
+			}
+			
+			.BODY .FIRST img:hover + .SECOND {
+				opacity: 1;
+			}
+			
+			.BODY .FIRST .SECOND {
+				opacity: 0;
+				
+				width: 100%;
+				height: 100%;
+				
+				position: absolute;
+				top: 0;
+				left: 0;
+				
+				background-color: rgb( 0, 0, 3 );
+				
+				pointer-events: none;
+			}
+			
+			.BODY .FIRST .SECOND p {
+				position: absolute;
+				top: 35%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				
+				pointer-events: none;
+			}
+			
+.myButton {
+	border: 1px solid rgb( 255, 255, 255 );
+	display:inline-block;
+	color:#ffffff;
+	letter-spacing: 15px;
+	font-size: 17px;
+	padding:10px 30px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #b34332 5%, #a73f2d 100%);
+	background-color:#b34332;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+			
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="Oskaras">
+			<header>
+				<div class="LEFT">
+					<p class="Author">OSKARAS<br/>PALDAVICIUS</p>
+				</div>
+				
+				<div class="RIGHT">
+					<a href="./index.php">STUDIES</a>
+					<a href="./contact.php">CONTACT</a>
+				</div>
+			</header>
+			
+			<div class="BODY">
+				
+				<div class="FIRST">
+					<img onclick="location.href='./JOB_1.php';" src="./IMG/IMG_1.png" />
+					
+					<div class="SECOND">
+						<p class="myButton">BITCH PLEASE</p>
+					</div>
+					
+				</div>
+				
+				<div class="FIRST">
+					<img onclick="location.href='./index.php';" src="./IMG/IMG_1.png" />
+					
+					<div class="SECOND">
+						<p class="myButton">KRAKEN VAGEN</p>
+					</div>
+					
+				</div>
+				
+				<div class="FIRST">
+					<img onclick="location.href='./index.php';" src="./IMG/IMG_1.png" />
+					
+					<div class="SECOND">
+						<p class="myButton">WHAT ?</p>
+					</div>
+					
+				</div>
+				
+				<div class="FIRST">
+					<img onclick="location.href='./index.php';" src="./IMG/IMG_1.png" />
+					
+					<div class="SECOND">
+						<p class="myButton">NOTHING HERE </p>
+					</div>
+					
+				</div>
+				
+				<div class="FIRST">
+					<img onclick="location.href='./index.php';" src="./IMG/IMG_1.png" />
+					
+					<div class="SECOND">
+						<p class="myButton">DBZ FAN</p>
+					</div>
+					
+				</div>
+				
+				<div class="FIRST">
+					<img onclick="location.href='./index.php';" src="./IMG/IMG_1.png" />
+					
+					<div class="SECOND">
+						<p class="myButton">LAST JOB</p>
+					</div>
+					
+				</div>
+				
+			<div>
+		</div>
+	
+	</body>
+</html>
